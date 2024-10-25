@@ -3,6 +3,7 @@ const car=(a)=>{
     return a+25
 }
 console.log(car(35));
+//34543
 const bus=(d)=>{
     return d*3
 }

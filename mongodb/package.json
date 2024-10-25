@@ -12,6 +12,5 @@
     "express": "^4.21.1",
     "mongodb": "file:",
     "mongoose": "^8.7.2"
-  },
-  "devDependencies": {}
+  }
 }
