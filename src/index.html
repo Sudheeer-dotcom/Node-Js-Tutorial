@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="src/styles.css">
+</head>
+<body>
+    <!-- Add visible content -->
+    <h1>Welcome to the Page</h1>
+    <p id="user-info"></p>
+
+    <!-- Script that logs info and displays content -->
+    <script>
+        var name = "Sudheer";
+        var age = 30;
+        var isstudent = true;
+
+        // Logging to console (not visible on page)
+        console.log(name);
+        console.log(age);
+        console.log(isstudent);
+
+        // Adding visible content to the page
+        document.getElementById("user-info").innerText = 
+            "Name: " + name + ", Age: " + age + ", Is Student: " + isstudent;
+    </script>
+</body>
+</html>
